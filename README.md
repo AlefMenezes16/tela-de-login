@@ -7,4 +7,4 @@ Para rodar esse projeto na sua máquina, por favor digite:
 ````
 npm install react
 ````
-aqui tem uma [página com os códigos mais frequentes](https://www.google.com) do projeto.
+Aqui tem uma [página com os códigos mais frequentes](https://www.google.com) do projeto.
