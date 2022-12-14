@@ -1,4 +1,4 @@
-<h1>Tela de Login<h1>
+<h1 align="center">Tela de Login<h1>
 
 > Status do projeto: Em desenvolvimento
 
