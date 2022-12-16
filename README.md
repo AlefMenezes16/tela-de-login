@@ -15,3 +15,4 @@ Aqui tem uma [página com os códigos mais frequentes](https://www.google.com) d
 
 =)
 
+Atualizando algumas informções no readme.
