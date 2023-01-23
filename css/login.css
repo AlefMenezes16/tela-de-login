@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+:root {
+        --font-style: 'Varela Round', sans-serif;
+}
+
+    * {
+        box-sizing: border-box;
+    }
+
+body {
+    background: #131515;
+    font-family: var(--font-style);
+}
+
+.caixa-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #242026;
+    box-shadow: 0 15px 25px rgba(244, 23, 23, 0.7);
+    border-radius: 10px;
+}
+
+.caixa-login h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.caixa-login .caixa-usuario input {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.caixa-login .caixa-usuario label {
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.caixa-login .caixa-usuario input:focus~label,
+.caixa-login .caixa-usuario input:valid~label {
+    top: -85px;
+    left: 0;
+    color: #ec7c7c;
+}
+
+#submit {
+    padding: 10px 20px;
+    color: #dbbdbd;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid #ec7c7c;
+    margin: auto;
+}
+
+#submit:hover {
+    background: #ec7c7c;
+    color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #ec7c7c, 
+    0 0 25px #ec7c7c, 
+    0 0 50px #ec7c7c, 
+    0 0 100px #ec7c7c;
+}
+
+.botao-form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#registro {
+    font-size: 14px;
+    text-decoration: none;
+    color: #dbbdbd;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#registro a {
+    margin: auto;
+    color: #ec7c7c;
+    text-decoration: none;
+}
